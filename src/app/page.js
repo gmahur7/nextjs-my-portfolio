@@ -2,7 +2,7 @@ import Photo from "@/components/Photo";
 import Social from "@/components/Social";
 import Stats from "@/components/Stats";
 import { Button } from "@/components/ui/button";
-// import {FiDownload} from 'react-icons'
+import {FiDownload} from 'react-icons/fi'
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
             <div className="flex flex-col md:flex-row items-center gap-8">
               <Button variant="outline" size="lg" className="uppercase flex items-center gap-2 ">
                 <span>Download CV</span>
-                {/* <FiDownload className="text-xl" /> */}
+                <FiDownload className="text-xl" />
               </Button>
               <div className="mb-8 lg:mb-0 "> 
                   <Social containerStyles='flex flex-row gap-5' iconStyles='w-9 h-9 border border-accent rounded-full flex justify-center items-center text-accent text-base hover:bg-accent hover-text-primary hover:transition-all duration-500' />

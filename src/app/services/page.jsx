@@ -7,26 +7,26 @@ import Link from 'next/link';
 const services =[
   {
     num:'01',
-    title:'Web Developement',
-    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nam suscipit vitae ad.",
+    title:'MERN Developement',
+    description:"Proficient in building full-stack web applications using React.js, Next.js, Node.js, and Express.js. Skilled in creating responsive user interfaces and robust backend services, with a solid understanding of MongoDB for database management. Passionate about applying my skills to contribute to innovative projects.",
     href:""
   },
   {
     num:'02',
-    title:'UX/UI Design',
-    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nam suscipit vitae ad.",
+    title:'Next.js Developement',
+    description:"Experienced in building dynamic and responsive web applications using Next.js. Proficient in server-side rendering, static site generation, and creating seamless user experiences. Passionate about leveraging Next.js to develop high-performance, scalable applications.",
     href:""
   },
   {
     num:'03',
-    title:'App Developement',
-    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nam suscipit vitae ad.",
+    title:'Frontend Developement',
+    description:"Skilled in building dynamic and responsive user interfaces with React.js. Proficient in creating seamless and interactive web experiences, leveraging modern JavaScript features and component-based architecture. Passionate about delivering high-quality, user-friendly applications.",
     href:""
   },
   {
-    num:'01',
-    title:'Wordpress Developement',
-    description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nam suscipit vitae ad.",
+    num:'04',
+    title:'Backend Developement',
+    description:"Proficient in developing robust and scalable backend services using Node.js and Express.js. Experienced in designing and managing databases with MongoDB, ensuring efficient data storage and retrieval. Passionate about building high-performance server-side applications and APIs.",
     href:""
   },
 ]

@@ -49,7 +49,7 @@ const about = {
 const experience = {
   icon: '',
   title: 'Experience',
-  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit est ex dolore, quiaspernatur molestias.",
+  description: "As a recent graduate, I bring a strong foundation in MERN stack development, with hands-on experience in building full-stack web applications using React.js, Next.js, Node.js, Express.js, and MongoDB. My academic projects and personal initiatives have equipped me with the skills to create dynamic and responsive user interfaces, as well as robust backend services. I am eager to apply my knowledge and creativity in a professional setting to contribute to innovative and impactful projects.",
 }
 
 const education = {
@@ -85,28 +85,8 @@ const skills = {
   description: "",
   skillList: [
     {
-      icon: <FaHtml5 />,
-      name: "HTML 5"
-    },
-    {
-      icon: <FaCss3Alt />,
-      name: "CSS 5"
-    },
-    {
-      icon: <FaJs />,
-      name: "JavaScript"
-    },
-    {
-      icon: <FaBootstrap />,
-      name: "Bootstrap"
-    },
-    {
-      icon: <SiTailwindcss />,
-      name: "Tailwind CSS"
-    },
-    {
-      icon: <FaReact />,
-      name: "React Js"
+      icon: <RiNextjsFill />,
+      name: "Next Js"
     },
     {
       icon: <FaNodeJs />,
@@ -117,12 +97,36 @@ const skills = {
       name: "MongoDB"
     },
     {
+      icon: <FaReact />,
+      name: "React Js"
+    },
+    {
       icon: <SiExpress />,
       name: "Express Js"
     },
     {
-      icon: <RiNextjsFill />,
-      name: "Next Js"
+      icon:<SiTypescript/>,
+      name:"TypeScript"
+    },
+    {
+      icon: <FaJs />,
+      name: "JavaScript"
+    },
+    {
+      icon: <SiTailwindcss />,
+      name: "Tailwind CSS"
+    },
+    {
+      icon: <FaBootstrap />,
+      name: "Bootstrap"
+    },
+    {
+      icon: <FaCss3Alt />,
+      name: "CSS 5"
+    },
+    {
+      icon: <FaHtml5 />,
+      name: "HTML 5"
     },
   ]
 }
@@ -130,7 +134,7 @@ const skills = {
 
 const Resume = () => {
   return (
-    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 2, duration: 0.4, ease: "easeIn" } }} className='min-h-[57vw] flex items-center justify-center py-12 lg:py-0'>
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 2, duration: 0.4, ease: "easeIn" } }} className='min-h-[57vw] flex items-center justify-center py-10 lg:py-0'>
       <div className="conatiner mx-auto">
         <Tabs defaultValue='experience' className='flex flex-col lg:flex-row gap-[60px]'>
           <TabsList className="flex flex-col w-full max-w-[380px] mx-auto lg:mx-0 gap-6">

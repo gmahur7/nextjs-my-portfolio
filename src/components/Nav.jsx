@@ -31,7 +31,7 @@ export const links = [
 const Nav = () => {
     const pathname = usePathname()
     return (
-        <nav className='flex gap-8'>
+        <nav className='flex lg:gap-8 gap-4'>
             {
                 links.map((link, index) => {
                     return <Link className={`${link.path===pathname&&"text-accent border-b-2 border-accent"} capitalize font-medium hover:text-accent transition-all`} href={`${link.path}`} key={index}>{link.name}</Link>

@@ -11,11 +11,11 @@ const Header = () => {
                 <Link href="/">
                     <h1 className='text-4xl font-semibold'>Gaurav <span className='text-accent'>Singh</span></h1>
                 </Link>
-                <div className='hidden lg:flex items-center gap-8'>
+                <div className='hidden md:flex items-center gap-4 lg:gap-8'>
                     <Nav />
                     <Link href='/contact'><Button>Hire Me</Button></Link>
                 </div>
-                <div className='lg:hidden'>
+                <div className='md:hidden'>
                     <MobileNav/>
                     {/* <Link href='/contact'><Button>Hire Me</Button></Link> */}
                 </div>
