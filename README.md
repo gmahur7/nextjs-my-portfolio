@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌟 My Next.js Portfolio 🌟
 
-## Getting Started
+Welcome to my personal portfolio website! This project showcases my skills, experience, and projects, providing a comprehensive view of who I am and what I do.
 
-First, run the development server:
+## ✨ Key Features
+
+- **Home Page**: Introduction about me
+- **Services Page**: Services that I provide
+- **Resume Page**: My professional resume
+- **Work Page**: My personal projects
+- **Contact Page**: A form to get in touch with me directly
+
+## 🚀 Technologies Used
+
+- ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat&logo=nextdotjs&logoColor=white) **Next.js**
+- ![React.js](https://img.shields.io/badge/-React.js-61DAFB?style=flat&logo=react&logoColor=white) **React.js**
+- ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=white) **JavaScript**
+- ![Shadcn-ui](https://img.shields.io/badge/-Shadcn--ui-2A2A2A?style=flat&logoColor=white) **Shadcn-ui**
+- ![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white) **TailwindCSS**
+
+## 🏠 Homepage
+
+The homepage provides an introduction about me, highlighting my background, skills, and interests. 
+
+## 🛠 Services Page
+
+On the services page, you can find the various services I offer, including web development, UI/UX design, and more.
+
+## 📄 Resume Page
+
+The resume page contains my professional resume, detailing my work experience, education, and skills.
+
+## 💼 Work Page
+
+The work page showcases my personal projects, demonstrating my skills and experience in various technologies.
+
+## 📞 Contact Page
+
+The contact page allows you to get in touch with me directly through a contact form. Feel free to reach out!
+
+## 📂 Folder Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+nextjs-my-portfolio/
+├── public/
+│    ├── assets/
+│    │   ├── image.png
+│    ├── next.svg
+│    ├── vercel.svg
+├── src/
+│    ├── app/
+│    │   ├── contact/
+│    │   │   │   ├──page.jsx
+│    │   ├── resume/
+│    │   │   │   ├──page.jsx
+│    │   ├── services/
+│    │   │   │   ├──page.jsx
+│    │   ├── work/
+│    │   │   │   ├──page.jsx
+│    │   ├── favicon.ico
+│    │   ├── globals.css
+│    │   ├── layout.jsx
+│    │   ├── page.jsx
+│    ├── components/
+│    │   ├── ui/
+│    │   │   │   button.jsx
+│    │   │   │   input.jsx
+│    │   │   │   scroll-area.jsx
+│    │   │   │   select.jsx
+│    │   │   │   sheet.jsx
+│    │   │   │   tabs.jsx
+│    │   │   │   textarea.jsx
+│    │   │   │   tooltip.jsx
+│    │   ├── Header.jsx
+│    │   ├── MobileNav.jsx
+│    │   ├── Nav.jsx
+│    │   ├── Photo.jsx
+│    │   ├── Social.jsx
+│    │   ├── Stats.jsx
+│    │   ├── WorkSliderBtns.jsx
+│    ├── lib/
+│    │   ├── utils.js
+├── eslintrc.json
+├── .gitignore
+├── jsconfig.json
+├── next-config.mjs
+├── package-lock.json
+├── package.json
+├── postcss-config.mjs
+├── README.md
+└── tailwind.config.js
