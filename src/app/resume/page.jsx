@@ -10,6 +10,7 @@ import {
   FaNodeJs, FaGithub, FaBootstrap,
 } from 'react-icons/fa'
 import { SiMongodb, SiExpress, SiTailwindcss, SiTypescript } from "react-icons/si";
+import { TbBrandRedux } from "react-icons/tb";
 import { RiNextjsFill } from "react-icons/ri";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { ScrollArea } from '@/components/ui/scroll-area';
@@ -17,7 +18,7 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/comp
 
 const about = {
   title: 'About Me',
-  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit est ex dolore, qui aspernatur molestias.",
+  description: "I am Gaurav Singh, a passionate and motivated fresher in the field of web development. With a strong foundation in both front-end and back-end technologies, I am dedicated to building efficient and scalable applications. My expertise spans a wide range of technologies, including Next.js, React.js, Node.js, and MongoDB. I am always eager to learn and grow in my career, with a focus on delivering impactful projects. Fluent in both English and Hindi, I am ready to take on new challenges in the tech industry.",
   info: [
     {
       fieldName: "Name",
@@ -55,7 +56,7 @@ const experience = {
 const education = {
   icon: "",
   title: "My Education",
-  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit est ex dolore, qui aspernatur molestias.",
+  description: "A brief overview of my academic journey, showcasing my qualifications and institutions attended.",
   items: [
     {
       institution: "Divine Academy, Bulandshahr",
@@ -82,7 +83,7 @@ const education = {
 
 const skills = {
   title: "My Skills",
-  description: "",
+  description: "A comprehensive set of skills in modern web development, ranging from front-end to back-end technologies. I specialize in building full-stack applications using frameworks and libraries like Next.js, React.js, and Node.js. My expertise extends to working with databases such as MongoDB, and I have experience with state management using Redux and efficient styling with Tailwind CSS and Bootstrap. I am also proficient in TypeScript, JavaScript, GitHub, and core web technologies like HTML5 and CSS3.",
   skillList: [
     {
       icon: <RiNextjsFill />,
@@ -101,6 +102,10 @@ const skills = {
       name: "React Js"
     },
     {
+      icon: <TbBrandRedux />,
+      name: "Redux Js"
+    },
+    {
       icon: <SiExpress />,
       name: "Express Js"
     },
@@ -111,6 +116,10 @@ const skills = {
     {
       icon: <FaJs />,
       name: "JavaScript"
+    },
+    {
+      icon: <FaGithub />,
+      name: "GitHub"
     },
     {
       icon: <SiTailwindcss />,
